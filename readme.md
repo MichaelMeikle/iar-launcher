@@ -4,9 +4,11 @@
 
 ## Requires
 - Node/NPM
+- xterm
 - Chromium-Browser
 
 ## Setup
+- Ensure you have xterm/node installed
 - Clone repo to user directory
 - CD into project directory
 - Run npm install command
