@@ -1,10 +1,10 @@
 # IAR-Launcher
-### Author:  M. Meikle
-Designed for Raspberry Pis
+- Author:  M. Meikle
+- Description: IAR Auto-launcher designed for Raspberry Pis. Automatically launches chromium-browser, logs in with provided credentials, and navigates to dashboard page.
 
 ## Requires
--Node/NPM
--Chromium-Browser
+- Node/NPM
+- Chromium-Browser
 
 ## Setup
 - Clone repo to user directory
