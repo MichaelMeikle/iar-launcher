@@ -35,10 +35,14 @@ const USER_JS_CONTENT = `
 	user_pref("dom.ipc.processCounty", 1); // For Pis with 1GB or less of RAM
 `;
 
+console.log(`Attempted directory: ${process.cwd()}`);
+const scriptDir = path.dirname(process.argv[1]);
+console.log(`New directory: ${scriptDir});
+
 // --- Load Credentials ---
 let credentials;
 try {
-	const credentialsPath = path.join(process.cwd(), 'credentials.json');
+	const credentialsPath = path.join(scriptDir, 'credentials.json');
 	console.log(`Loading credentials from: ${credentialsPath}`);
 	const credentialsRaw = fs.readFileSync(credentialsPath, 'utf8');
 	credentials = JSON.parse(credentialsRaw);
