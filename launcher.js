@@ -100,7 +100,7 @@ async function runFirefoxForSignage(){
 				'--disable-infobars', // Self explanatory
 				'--disable-features=EnableEphemeralFlashPermission', //Disable flash permission
 				'--disable-features=NetworkPrediction',
-				//'--kiosk', // Fullscreen with no browser ui
+				'--kiosk', // Fullscreen with no browser ui
 				'--incognito', // Self explanatory
 				'--disable-notifications', // Self explanatory
 				'--profile', userDataDir,
@@ -118,6 +118,7 @@ async function runFirefoxForSignage(){
 				'--disable-ipc-flooding-protection',
 				'--disable-renderer-backgrounding',
 				'--disable-software-rasterizer',
+				'--disable-web-security'
 			],
 			//userDataDir: userDataDir, // the temp data directory
 			timeout: 120000,
