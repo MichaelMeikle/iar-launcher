@@ -1,0 +1,15 @@
+{
+  "name": "iar-launcher",
+  "version": "0.0.1",
+  "description": "Automatically launches IAR for a digital signage board; logs in with provided credentials.",
+  "main": "launcher.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M. Meikle",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer-core": "^24.11.1"
+  }
+}
