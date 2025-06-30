@@ -1,12 +1,12 @@
-#IAR-Launcher
-###Author:  M. Meikle
+# IAR-Launcher
+### Author:  M. Meikle
 Designed for Raspberry Pis
 
-##Requires
+## Requires
 -Node/NPM
 -Chromium-Browser
 
-##Setup
+## Setup
 - Clone repo to user directory
 - CD into project directory
 - Run npm install command
