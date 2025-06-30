@@ -2,8 +2,8 @@
 Type=Application
 Name=IAR-Launcher
 Name[en_GB]=IAR-Launcher
-Path=/home/ebifc/iar-launcher/
-Exec=/usr/bin/node /home/ebifc/iar-launcher/launcher.js
+Path=~/iar-launcher/
+Exec=xterm -hold -e 'node /home/ebifc/iar-launcher/launcher.js'
 Terminal=true
 Hidden=false
 NoDisplay=false
