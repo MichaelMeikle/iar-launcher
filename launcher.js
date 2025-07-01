@@ -37,7 +37,7 @@ const USER_JS_CONTENT = `
 
 console.log(`Attempted directory: ${process.cwd()}`);
 const scriptDir = path.dirname(process.argv[1]);
-console.log(`New directory: ${scriptDir});
+console.log(`New directory: ${scriptDir}`);
 
 // --- Load Credentials ---
 let credentials;
